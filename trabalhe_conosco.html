@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TecFlying | Trabalhe conosco</title>
+    <link rel="sortcut icon" href="./img/tec-flying.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="nav navbar navbar-dark bg-dark navbar-expand-md">
+
+            <a href="./index.html" class="navbar-brand">
+                <img id="logo" src="./img/tec-flying.png" alt="TecFlying" />
+              </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./orcamento.html" class="nav-link">Solicite um orçamento</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Trabalhe conosco</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contato.html" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+
+    <main  class="main-min-height">
+        <section class="container-fluid mb-3 px-sm-5">
+            <div class="row">
+                <div class="col-12 my-4 mx-auto">
+                    <h1 class="text-center">Trabalhe Conosco</h1>
+                </div>
+            </div>
+
+            <form>
+
+                <div class="row form-group">
+                    <label class="col-sm-2 col-form-label" for="nome">Nome:</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="text" name="nome" id="nome">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <label class="col-sm-2 col-form-label" for="email">Email:</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="email" name="email" id="email">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <label class="col-sm-2 col-form-label" for="vaga">Vaga:</label>
+                    
+                    <div class="col-sm-10">
+
+                    
+                    
+                    <select id="vaga" class="form-control" name="vaga">
+                        <option selected>Opções</option>
+                        <option value="programador">Programador</option>
+                        <option value="tecnico_ti">Técnico de TI</option>
+                        <option value="font_end">Desenvolvedor de Front End</option>
+                        <option value="back_end">Desenvolvedor de Back End</option>
+                        <option value="analista-software">Analista de Software</option>
+                    </select>
+                </div>
+                </div>
+
+                <div class="row form-group">
+                    <label for="curriculo" class="col-sm-2 col-from-lebel">Anexe o currículo:</label>
+                    <div class="col-sm-10">
+                        <input class="form-control-file" type="file" name="currículo" id="curriculo">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="offset-sm-2 col-sm-10 d-flex justify-content-center">
+                        <button type="submit" class="btn btn-success w-25"> Enviar</button>
+                    </div>
+                </div>
+            </form>
+
+        </section>
+    </main>
+    <footer class="bg-dark card-footer">
+        <div class="container text-light">
+          <div class="row">
+            <div class="col-sm-3">
+              <h5>Início</h5>
+              <ul class="list-unstyled">
+                <li><a href="./index.html">Home</a></li>
+                <li>
+                  <a
+                    href="https://github.com/TECFlyingCommunity/tecflyingcommunity.github.io/releases"
+                    >Downloads</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <h5>Sobre nós</h5>
+              <ulv class="list-unstyled">
+                <li><a href="./contato.html">Contato</a></li>
+                <li>
+                  <a
+                    href="https://github.com/TECFlyingCommunity/tecflyingcommunity.github.io/issues/4"
+                    >Blog</a
+                  >
+                </li>
+              </ulv>
+            </div>
+            <div class="col-sm-3">
+              <h5>Suporte</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    href="https://github.com/TECFlyingCommunity/tecflyingcommunity.github.io/issues/1"
+                    >FAQ</a
+                  >
+                </li>
+                <li><a href="https://t.me/TECFlyingCommunity">Telefones</a></li>
+                <li>
+                  <a
+                    href="https://github.com/TECFlyingCommunity/tecflyingcommunity.github.io/issues/2"
+                    >Chat</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <h5>Informações</h5>
+              <p class="text-left">
+                Se você deseja se tornar um programador de sucesso, Assine o
+                Tekvideos PRIME e aproveite os conteúdos exclusivo
+              </p>
+            </div>
+          </div>
+  
+          <p class="text-center">
+            <a class="text-light" href="tecflyingcommunity.github.io">
+              tecflyingcommunity.github.io
+            </a>
+          </p>
+        </div>
+      </footer>
+
+
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

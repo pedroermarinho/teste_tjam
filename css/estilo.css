@@ -1,0 +1,43 @@
+#logo {
+  width: 25px;
+}
+
+.img-title {
+    margin-top: 10vh;
+}
+.img-inicio{
+    background-image: url(../img/luca.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    min-height: 50vh;
+    position: relative;
+    max-height: 150px;
+    overflow: hidden;
+    
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.gallery img{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+
+.gallery img:first-child{
+    grid-row: 1/3;
+    grid-column: 1/3;
+}
+
+.gallery img:nth-child(2){
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+@media (min-width: 576px) {
+  .main-min-height {
+    min-height: calc(100vh - 266px);
+  }
+}
